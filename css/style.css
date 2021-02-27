@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 body {
     background-color: aqua;
-    color: white;
+    color: rgb(13, 13, 56);
 }
 
 #title {
@@ -13,4 +13,22 @@ body {
     text-align: center;
     font-family: Metal Mania;
     font-weight: bold;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#submit {
+    background-color: rgb(34, 192, 34);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 15px;
+    border: 1px solid #222;
+    padding: 5px 15px;
+}
+
+#text {
+    margin: 10px;
 }

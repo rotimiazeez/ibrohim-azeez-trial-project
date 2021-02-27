@@ -9,15 +9,19 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+    <div class="container">
     <h1 id="title">Survey Form </h1>
     <p id="description"> This is Ibrohim and Azeez trial survey form</p>
 
     <form action="" id="survey-form">
-      <label for="name-label" id="name-label" name="Name"><input type="name" placeholder="Your Name" id="name" required>Name</label>
+      <label for="name-label" id="name-label" name="Name">Name <input type="name" placeholder="Your Name" id="name" required></label>
+      <br>
 
-      <label for="email-label" id="email-label" name="Email"><input type="email" name="Email" id="email" placeholder="your email" required>Email</label>
+      <label for="email-label" id="email-label" name="Email">Email <input type="email" name="Email" id="email" placeholder="your email" required></label>
+      <br>
 
-      <label for="number-label" id="number-label" name="Number"><input type="number" name="number" id="number" placeholder="Your Number" required min="10" max="250">Number</label>
+      <label for="number-label" id="number-label" name="Number">Number <input type="number" name="number" id="number" placeholder="Your Number" required min="10" max="250"></label>
+      <br>
 
       <select name="" id="dropdown">
         <option value="First list"></option>
@@ -39,10 +43,13 @@
            <label for="other">Other
         <input id="other" type="checkbox" name="gender" value="other">
       </label>
-
+      <br>
       <textarea id="text" name="textarea" value="text" rows="4" cols="50">add additional text here</textarea>
       
+        <br>
+
       <button type="submit" id="submit" value="submit">Submit</button>
+    </div>
 
     
 
