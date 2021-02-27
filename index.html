@@ -11,13 +11,18 @@
 
     <h1 id="title">Survey Form </h1>
     <p id="description"> This is Ibrohim and Azeez trial survey form</p>
+
     <form action="" id="survey-form">
-      <input type="name" placeholder="Your Name" id="name" required>
-      <input type="email" name="Email" id="email" placeholder="your email" required>
+      <label for="name-label" id="name-label" name="Name"><input type="name" placeholder="Your Name" id="name" required>Name</label>
+
+      <label for="email-label" id="email-label" name="Email"><input type="email" name="Email" id="email" placeholder="your email" required>Email</label>
+
+      <label for="number-label" id="number-label" name="Number"><input type="number" name="number" id="number" required min="10" max="250">Number</label>
+
 
     </form>
 
-    -->
+    
     <script  src="js/index.js"></script>
   </body>
 </html>
