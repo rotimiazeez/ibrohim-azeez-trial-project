@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+body {
+    background-color: aqua;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-family: Metal Mania;
+}
+
+#description {
+    text-align: center;
+    font-family: Metal Mania;
+    font-weight: bold;
+}
